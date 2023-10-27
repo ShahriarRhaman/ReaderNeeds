@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6B12A6;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+nav {
+  background-color: #6B12A6;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #590D8C;
+}
+
+/* Dropdown styles */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show dropdown on hover */
+nav ul li.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Move Signup/Login to the right corner */
+.right-corner {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.right-corner .button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.right-corner .button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #6B12A6;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.profile-section {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile-section img {
+  max-width: 200px; /* Limit the maximum width of the profile picture */
+  border-radius: 50%; /* Create a circular profile picture */
+  margin-bottom: 10px;
+}
+
+.profile-section h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.profile-section p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.profile-section h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Style for the edit profile button */
+#edit-profile {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#edit-profile:hover {
+  background-color: #0056b3;
+}
+
+
+/* Profile name and email */
+h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Order history */
+h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p.order-item {
+  margin-bottom: 10px;
+}
+
+/* Edit profile button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+img.profile-section {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

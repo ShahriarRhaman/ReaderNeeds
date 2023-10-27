@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+img{
+  height: 200px;
+  width: 120px;
+}
+
+header {
+  background-color: #6B12A6;
+  color:white;
+  text-align: center;
+  padding: 10px;
+}
+nav {
+  background-color: #6B12A6;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #380759;
+}
+.book{
+  margin-top: 10px ;
+  margin-bottom: 10px;
+}
+.pass{
+  display: none;
+  visibility: hidden;
+}
+/* Dropdown styles */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show dropdown on hover */
+nav ul li.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Move Signup/Login to the right corner */
+.right-corner {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.right-corner .button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.right-corner .button:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-form {
+  width: 40%;
+  float: right;
+  margin-right: 5%;
+}
+
+.post-form label,
+.book-list h2 {
+  margin-bottom: 10px;
+}
+
+.post-form input,
+.post-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Books for Sale section */
+.book-list {
+  width: 50%;
+  float: left;
+}
+
+.book-card {
+  border: 1px solid #b38d8d;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.book-card h3 {
+  margin-bottom: 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+  margin-top: 20px;
+}
